@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
             <img 
               src="https://assets.zyrosite.com/AVL1jZaD6qSvODbB/portada_libro-NXjb2RztXmzpPHDD.jpg" 
               alt="Portada del libro El Renacimiento del Alma 2026" 
-              className="relative w-full max-w-[320px] md:max-w-[400px] lg:max-w-[450px] shadow-2xl rounded-sm transform rotate-[-2deg] hover:rotate-0 transition-all duration-500 border border-white/10"
+              className="relative w-full max-w-[320px] md:max-w-[400px] lg:max-w-[450px] shadow-2xl rounded-sm border border-white/10"
             />
             
             {/* Decorative Stars */}
