@@ -13,3 +13,15 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+// Loader removal logic
+const loader = document.getElementById("initial-loader");
+
+if (loader) {
+  // Add a small delay/timeout to ensure smooth transition after React initializes
+  setTimeout(() => {
+    loader.style.opacity = "0";
+    loader.style.transition = "opacity 0.3s ease";
+    setTimeout(() => loader.remove(), 350);
+  }, 100);
+}
