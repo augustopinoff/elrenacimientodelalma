@@ -23,15 +23,16 @@ const FinalCTA: React.FC = () => {
             <div className="flex flex-col items-center gap-8">
                 <div className="bg-slate-900/50 backdrop-blur-md px-6 py-3 rounded-full border border-amber-500/20">
                     <p className="text-slate-200 font-medium">
-                        E-book (PDF) – Descarga inmediata: <span className="text-amber-400 text-lg font-bold">11,90 €</span>
+                        E-book – Descarga inmediata: <span className="text-amber-400 text-lg font-bold">11,90 €</span>
                     </p>
                 </div>
 
                 <a 
                     href="https://payhip.com/b/4tYhN"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group relative px-10 py-5 bg-amber-400 text-slate-950 font-bold text-xl rounded-full shadow-[0_0_30px_rgba(251,191,36,0.4)] transition-all hover:scale-105 hover:bg-amber-300 hover:shadow-[0_0_50px_rgba(251,191,36,0.6)] flex items-center gap-3 overflow-hidden"
+                    className="payhip-buy-button group relative px-10 py-5 bg-amber-400 text-slate-950 font-bold text-xl rounded-full shadow-[0_0_30px_rgba(251,191,36,0.4)] transition-all hover:scale-105 hover:bg-amber-300 hover:shadow-[0_0_50px_rgba(251,191,36,0.6)] flex items-center gap-3 overflow-hidden"
+                    data-product="4tYhN"
+                    data-theme="none"
+                    data-method="overlay"
                 >
                     <span className="relative z-10">Quiero mi e-book ahora</span>
                     <ArrowRight className="w-6 h-6 relative z-10 group-hover:translate-x-1 transition-transform" />
