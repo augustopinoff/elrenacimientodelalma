@@ -34,16 +34,17 @@ const Hero: React.FC = () => {
           <div className="mt-4 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm inline-block">
             <p className="text-lg font-semibold text-white flex items-center justify-center lg:justify-start gap-2">
               <Download className="w-5 h-5 text-amber-400" />
-              E-book (PDF) – Descarga inmediata: <span className="text-amber-400 text-xl">11,90 €</span>
+              E-book – Descarga inmediata: <span className="text-amber-400 text-xl">11,90 €</span>
             </p>
           </div>
 
           <div className="flex flex-col gap-4 mt-2">
             <a 
               href="https://payhip.com/b/4tYhN"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-300 to-amber-500 hover:from-amber-400 hover:to-amber-600 text-slate-900 font-bold text-lg rounded-full shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(251,191,36,0.5)] text-center flex items-center justify-center gap-2"
+              className="payhip-buy-button w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-300 to-amber-500 hover:from-amber-400 hover:to-amber-600 text-slate-900 font-bold text-lg rounded-full shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(251,191,36,0.5)] text-center flex items-center justify-center gap-2"
+              data-product="4tYhN"
+              data-theme="none"
+              data-method="overlay"
             >
               Comprar e-book y descargar ahora
             </a>
