@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-amber-500/20 blur-[60px] rounded-full group-hover:bg-amber-500/30 transition-all duration-700"></div>
             
             <img 
-              src="https://assets.zyrosite.com/AVL1jZaD6qSvODbB/portada_libro-NXjb2RztXmzpPHDD.jpg" 
+              src="/portada.jpg" 
               alt="Portada del libro El Renacimiento del Alma 2026" 
               className="relative w-full max-w-[320px] md:max-w-[400px] lg:max-w-[450px] shadow-2xl rounded-sm border border-white/10"
             />
